@@ -1,0 +1,25 @@
+{
+  "name": "ethereum-smartcontract",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supparerk23/ethereum-smartcontract.git"
+  },
+  "keywords": [
+    "smart-contract"
+  ],
+  "author": "Supparerk23",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Supparerk23/ethereum-smartcontract/issues"
+  },
+  "homepage": "https://github.com/Supparerk23/ethereum-smartcontract#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.4"
+  }
+}
