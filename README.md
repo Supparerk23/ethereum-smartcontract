@@ -5,8 +5,15 @@ npx hardhat help
 ## Installation
 ```shell
 npm install --save-dev hardhat
+```
+
+## Compiling your contracts
+
+```shell
 npx hardhat compile
 ```
+
+To force a compilation you can use the `--force` argument, or run `npx hardhat clean` to clear the cache and delete the artifacts.
 
 ## Development
 
