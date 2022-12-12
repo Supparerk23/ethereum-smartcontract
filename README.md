@@ -41,3 +41,7 @@ npx hardhat run scripts/deploy.js
 | ------ | ------ | 
 | [Hardhat](https://hardhat.org/) ||
 | [Ganache](https://trufflesuite.com/ganache/) ||
+| [Openzeppelin](https://docs.openzeppelin.com/contracts/4.x/) | Contracts Library |
+| [NFT on Hardhat Tutorials](https://learn.figment.io/tutorials/create-nft-smart-contract-with-hardhat) ||
+| [Chainlink](https://chain.link/) | Oracle Network |
+
