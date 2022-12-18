@@ -5,6 +5,7 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
+require("dotenv").config();
 
 async function main() {
 
@@ -25,7 +26,7 @@ async function main() {
 
   const nft = await hre.ethers.getContractFactory("NFT");
 
-  const NFT = await nft.deploy("NFT", "MCN");
+  const NFT = await nft.deploy(process.env.NAME_ASSET, process.env.SYMBOL);
 
   await NFT.deployed();
 

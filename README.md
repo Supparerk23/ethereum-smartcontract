@@ -20,7 +20,7 @@ To force a compilation you can use the `--force` argument, or run `npx hardhat c
 #### - Connecting a wallet or Dapp to Hardhat Network
 ```shell
 npx hardhat node
-npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploy.js --network {network name}
 ```
 
 ## Testing
@@ -44,4 +44,7 @@ npx hardhat run scripts/deploy.js
 | [Openzeppelin](https://docs.openzeppelin.com/contracts/4.x/) | Contracts Library |
 | [NFT on Hardhat Tutorials](https://learn.figment.io/tutorials/create-nft-smart-contract-with-hardhat) ||
 | [Chainlink](https://chain.link/) | Oracle Network |
-
+| [Polygon Scan](https://polygonscan.com/) ||
+| [Polygon Faucet](https://faucet.polygon.technology/)| Get Test Tokens|
+| [Polygon Mumbai](https://mumbai.polygonscan.com/)| Mumbai Network|
+| [Open Sea Testnet](https://testnets.opensea.io/)||

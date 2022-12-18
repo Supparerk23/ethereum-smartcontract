@@ -3,7 +3,7 @@ pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-import "hardhat/console.sol";
+// import "hardhat/console.sol";
 
 contract NFT is ERC721 {
 
@@ -14,11 +14,12 @@ contract NFT is ERC721 {
 
 		tokenCounter = 0;
 
-		console.log("name", name);
+		// console.log("name", name);
 
-        console.log("symbol", symbol);
+        // console.log("symbol", symbol);
 
-        console.log("msg.sender", msg.sender); //msg.sender is the address that initially deploys a contract
+        // console.log("msg.sender", msg.sender);
+        //msg.sender is the address that initially deploys a contract
 
 	}
 
@@ -43,7 +44,7 @@ contract NFT is ERC721 {
             _exists(_tokenId),
             "ERC721Metadata: URI set of nonexistent token"
         );
-        
+
         return _tokenURIs[_tokenId];
     }
 }
